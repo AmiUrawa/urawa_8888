@@ -1,17 +1,4 @@
-<b:if cond='data:blog.pageType not in {&quot;static_page&quot;,&quot;item&quot;,&quot;error_page&quot;}'>
-<script type="text/javascript">
-  /*<![CDATA[*/
-    var perPage=7;
-    var numPages=5;
-    var firstText ='First';
-    var lastText ='Last';
-    var prevText ='« Previous';
-    var nextText ='Next »';
-    var urlactivepage=location.href;
-    var home_page="/";
-  /*]]>*/
-</script>
-<script type="text/javascript">
+
  /*<![CDATA[*/
   if (typeof firstText == "undefined") firstText = "First";
   if (typeof lastText == "undefined") lastText = "Last";
@@ -200,5 +187,3 @@
           location.href = pAddress
       }
       /*]]>*/
-</script>
-</b:if>
